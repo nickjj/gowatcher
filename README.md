@@ -13,8 +13,9 @@ Replace apt-get install with whatever package manager you use.
 
 ### Step 2: (downloading and preparing the script)
 
-    $ curl http://raw.github.com/nickjj/gowatcher/gowatcher > gowatcher
-    $ chmod 700 gowatcher
+    $ curl http://raw.github.com/nickjj/gowatcher/gowatcher > gowatcher && chmod 700 gowatcher
+
+That just grabs the latest copy from this repo and changes the privileges of the file so that it is executable.
 
 At this point you'll want to move *gowatcher* into a directory that is on your system path so that you can run it from any directory.
 
