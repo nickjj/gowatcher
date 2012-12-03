@@ -16,7 +16,9 @@ Replace apt-get install with whatever package manager you use.
     $ curl http://raw.github.com/nickjj/gowatcher/gowatcher > gowatcher
     $ chmod 700 gowatcher
 
-At this point you'll want to move *gowatcher* into a directory that is on your system path so that you can run it from any directory. You're done.
+At this point you'll want to move *gowatcher* into a directory that is on your system path so that you can run it from any directory.
+
+You're also done unless you do not know how to that, in which case continue onto step 3.
 
 ### Step 3: (setting a directory on your system path)
 
