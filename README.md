@@ -40,4 +40,4 @@ Where *username* is your actual username, then save the file and reload your she
     $ cd path/to/the/dir/you/want/to/watch
     $ gowatcher file-to-start.go
 
-In other words, just goto the directory you want to monitor and then input the path to the file name of the go file containing your main() function.
+In other words, goto the directory you want to monitor and input the path to the go file containing your main() function.
