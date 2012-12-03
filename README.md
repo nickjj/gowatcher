@@ -4,7 +4,7 @@ A bash script to automatically reload a go program when anything changes in the 
 
 ## Installation
 
-Do you have inotify-tools already installed? Great, then step 1.
+Do you have inotify-tools already installed? Great, then skip step 1.
 
 ### Step 1: (installing the dependency)
     $ sudo apt-get install inotify-tools
