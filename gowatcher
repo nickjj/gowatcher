@@ -1,0 +1,10 @@
+#!/bin/bash
+
+go run $1 &
+
+inotifywait -m -r -e close_write --exclude '.*\.sw[a-z]' $PWD |
+while read line
+do
+  pkill -9 -f a.out > /dev/null 2>&1
+  go run $1 &
+done
