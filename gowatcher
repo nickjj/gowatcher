@@ -2,9 +2,10 @@
 
 go run $1 &
 
-inotifywait -m -r -e close_write --exclude '.*\.sw[a-z]' $PWD |
-while read line
+inotifywait -m -r -e close_write --exclude '[^gm][^lo]$'  $PWD |
+while read name
 do
+  echo $name
   pkill -9 -f a.out > /dev/null 2>&1
   go install
   go run $1 &
