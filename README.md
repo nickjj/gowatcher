@@ -1,6 +1,6 @@
 # <a href="#gowatcher" name="gowatcher">gowatcher</a>
 
-A bash script to automatically reload a go program when anything changes in the monitored directory. It uses inotify.
+A bash script to automatically reload a go program when *.go* or *.html* files change in the monitored directory. It uses inotify.
 
 ## Installation
 
